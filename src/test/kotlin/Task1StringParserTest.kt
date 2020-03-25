@@ -11,7 +11,7 @@ class Task1StringParserTest {
     fun testStringParser1() {
         val inputStr = "It's a <simple> [input] (string)"
         val result = arrayOf("simple", "input", "string")
-        assertArrayEquals(result, stringParser.getResult(inputStr))
+            assertArrayEquals(result, stringParser.getResult(inputStr))
     }
 
     @Test
